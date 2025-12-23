@@ -1,0 +1,1 @@
+// Based on the Black Mirror interactive film Bandersnatch, created as a learning experience, with all rights belonging to the original creators and no profit being made.
