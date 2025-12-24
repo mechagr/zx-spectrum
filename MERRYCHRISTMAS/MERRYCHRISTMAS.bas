@@ -1,13 +1,3 @@
-Check B11181AB
-Auto 8224
-
-# Run-time Variables
-
-Var s: NumArray(20, 2) = 0, 5, 13, 21, 8, 8, 6, 7, 22, 5, 12, 2, 19, 16, 24, 15, 22, 3, 21, 4, 25, 7, 11, 7, 16, 3, 20, 1, 8, 5, 24, 7, 18, 13, 19, 19, 31, 18, 10, 10
-Var i: NumFOR = 21, 20, 1, 110, 2
-
-# End Run-time Variables
-
   10 BORDER 0: PAPER 0: INK 7: CLS
   20 INK 2: BRIGHT 1
   30 PRINT AT 10,6;"Merry Christmas!"
