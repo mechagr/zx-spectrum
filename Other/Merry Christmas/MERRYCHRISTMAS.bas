@@ -1,0 +1,27 @@
+  10 BORDER 0: PAPER 0: INK 7: CLS
+  20 INK 2: BRIGHT 1
+  30 PRINT AT 10,6;"Merry Christmas!"
+  40 PRINT AT 12,10;"From Grace"
+  50 DIM s(20,2)
+  60 FOR i=1 TO 20
+  70 LET s(i,1)=INT (RND*32)
+  80 LET s(i,2)=INT (RND*22)
+  90 NEXT i
+ 100 INK 7
+ 110 FOR i=1 TO 20
+ 120 PRINT AT s(i,2),s(i,1);" "
+ 130 LET s(i,2)=s(i,2)+1
+ 140 IF s(i,2)>21 THEN LET s(i,2)=0: LET s(i,1)=INT (RND*32)
+ 150 PRINT AT s(i,2),s(i,1);"*"
+ 160 NEXT i
+ 170 INK 2: BRIGHT 1
+ 180 PRINT AT 10,6;"Merry Christmas!"
+ 190 PRINT AT 12,10;"From Grace"
+ 200 PAUSE 3
+ 210 GO SUB 500
+ 220 GO TO 100
+ 500 BEEP 0.3,4: BEEP 0.3,4: BEEP 0.6,4
+ 510 BEEP 0.3,4: BEEP 0.3,4: BEEP 0.6,4
+ 520 BEEP 0.3,4: BEEP 0.3,7: BEEP 0.3,0: BEEP 0.3,2
+ 530 BEEP 0.9,4
+ 540 RETURN
